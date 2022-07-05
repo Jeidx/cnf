@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.list-of-items{
+    display: flex;
+    flex-direction: column;
+}
+.btn-item{
+    margin: 5px;
+}
+.btn-item-a{
+    padding: 3px 10px;
+    background-color: rgb(183, 182, 228);
+    color: black;
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 800;
+}
+.text{
+    font-size: 30px;
+}
+#search-inp{
+    width: 50%;
+    height: 50px;
+    padding: 3px 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.a-to-find{
+    background-color: rgb(179, 231, 149);
+    padding: 2px 10px;
+    border: 1px solid #000;
+}
